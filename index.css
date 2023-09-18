@@ -24,7 +24,8 @@ textarea{
     background-color: blueviolet;
     border-radius: 30px;
     padding: 10px;
-    display: inline-block   ;
+    margin: 5px;
+    display: inline-block;
 }
 
 .options.selected{
