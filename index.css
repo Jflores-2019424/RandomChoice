@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: powderblue;
+    height: 650px;
+}
+
+.container{    
+    text-align: center;
+}
+
+textarea{
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.options{
+    background-color: blueviolet;
+    border-radius: 30px;
+    padding: 10px;
+    display: inline-block   ;
+}
+
+.options.selected{
+    background-color: purple;
+}
